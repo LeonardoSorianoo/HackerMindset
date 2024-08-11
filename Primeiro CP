@@ -1,0 +1,15 @@
+#!/bin/bash
+mkdir Leonardo
+mkdir Leonardo/defesa_cibernetica
+
+mkdir Leonardo/defesa_cibernetica/hacker_mindset
+mkdir Leonardo/defesa_cibernetica/linux
+mkdir Leonardo/defesa_cibernetica/redes
+
+touch Leonardo/defesa_cibernetica/hacker_mindset/notas.txt
+touch Leonardo/defesa_cibernetica/linux/notas.txt
+touch Leonardo/defesa_cibernetica/redes/notas.txt
+
+echo "Sem notas cadastradas" > Leonardo/defesa_cibernetica/hacker_mindset/notas.txt
+echo "Sem notas cadastradas" > Leonardo/defesa_cibernetica/linux/notas.txt
+echo "Sem notas cadastradas" > Leonardo/defesa_cibernetica/redes/notas.txt
